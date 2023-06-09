@@ -1,0 +1,13 @@
+[package]
+name = "faseroptik-bf310-keyboard-slint-prototype"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+repository = "ssh://git@gitlab.com/faseroptik/faseroptik.bf310-keyboard-slint.prototype.git"
+
+[dependencies]
+slint = "1.0"
+anyhow = "1.0"
+
+[build-dependencies]
+slint-build = "1.0.0"

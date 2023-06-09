@@ -1,9 +1,9 @@
 [package]
-name = "faseroptik-bf310-keyboard-slint-prototype"
+name = "slint-text-rendering-artifact-demo"
 version = "0.1.0"
 edition = "2021"
 build = "build.rs"
-repository = "ssh://git@gitlab.com/faseroptik/faseroptik.bf310-keyboard-slint.prototype.git"
+repository = "https://github.com/kkettinger/slint-text-rendering-artifact-demo.git"
 
 [dependencies]
 slint = "1.0"

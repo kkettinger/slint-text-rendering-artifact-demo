@@ -6,7 +6,7 @@ build = "build.rs"
 repository = "https://github.com/kkettinger/slint-text-rendering-artifact-demo.git"
 
 [dependencies]
-slint = { git="https://github.com/kkettinger/slint", branch="v1.0.2-kk", features=["backend-qt", "backend-winit-wayland", "renderer-winit-femtovg", "renderer-winit-software"] }
+slint = { version="1.0.2", features=["backend-qt", "backend-winit-wayland", "renderer-winit-femtovg", "renderer-winit-software"] }
 
 [build-dependencies]
 slint-build = "1.0.0"

@@ -1,0 +1,1 @@
+# slint-text-rendering-artifact-demo
